@@ -225,13 +225,15 @@ function startTypewriter() {
     
     const fullMessage = `Hi,
 
-Happy Birthday!
+Happy Birthday Mantan Kandung!
 
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
+Hari ini aku mau ucapin selamat ulang tahun buat kamu, Selamat yaa!! Semoga di hari kedepan kamu selalu dikelilinggi hal" yang positif dan dikelilingi orang" yang selalu peduli sama kamu.. Semoga kamu bisa dapetin semua keinginan" kamu, bisa sukses kedepannya.. Aku tetep senang bisa berada di sisi kamu, di deket kamu, meskipun udah jadi mantan kandung (kata kamu).
 
-Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
+Aku bersyukur bisa bertemu sama kamu sampai saat ini, meskipun banyak masalah atau konflik sebelum nya, tapi aku tetep merasa senang. Hidup ku lebih sedikit berwarna ketika aku bertemu sama kamu, meskipun kadang ngeselin, tapi aku tetep seneng. Semoga rasa senangku bisa nular ke kamu.
 
-I love you so much! 💕`;
+Semoga di tahun berikutnya, kamu bisa melewati tantangan" yang ada, makin kuat, bisa mengendalikan diri(emosi) kamu lebih baik lagi, makin bahagia, makin sukses, dan tentunya makin cantik (walaupun aslinya juga udah cantik).
+
+I'm proud of you, love you so much! 💕`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -266,7 +268,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Hi Cel,<br><br>Happy Birthday Mantan Kandung!<br><br>Hari ini aku mau ucapin selamat ulang tahun buat kamu, Selamat yaa!! Semoga di hari kedepan kamu selalu dikelilinggi hal" yang positif dan dikelilingi orang" yang selalu peduli sama kamu.. Semoga kamu bisa dapetin semua keinginan" kamu, bisa sukses kedepannya.. Aku tetep senang bisa berada di sisi kamu, di deket kamu, meskipun udah jadi mantan kandung (kata kamu).<br><br>Aku bersyukur bisa bertemu sama kamu sampai saat ini, meskipun banyak masalah atau konflik sebelum nya, tapi aku tetep merasa senang. Hidup ku lebih sedikit berwarna ketika aku bertemu sama kamu, meskipun kadang ngeselin, tapi aku tetep seneng. Semoga rasa senangku bisa nular ke kamu.<br><br>Semoga di tahun berikutnya, kamu bisa melewati tantangan" yang ada, makin kuat, bisa mengendalikan diri(emosi) kamu lebih baik lagi, makin bahagia, makin sukses, dan tentunya makin cantik (walaupun aslinya juga udah cantik).<br><br>I'm proud of you, love you so much! 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -618,7 +620,7 @@ function loadSpotifyPlaylist(playlistNumber) {
             // Ganti dengan playlist kedua kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
             name: 'Love Songs Collection',
-            description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
+            description: 'Koleksi lagu romansa terbaik untuk kamu ❤️'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
