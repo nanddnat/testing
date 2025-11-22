@@ -350,11 +350,7 @@ function startPhotoShow() {
             image: './images/photo 5.jpg'
         },
         {
-            text: 'Chill Day 💆🏻‍♀',
-            image: './images/photo 2.jpg'
-        },
-        {
-            text: 'Love Forever 💖'
+            text: 'Love Forever 💖',
             image: './images/photo 10.jpg'
         }
     ];
