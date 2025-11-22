@@ -323,35 +323,35 @@ function startPhotoShow() {
     const photos = [
         {
             text: 'Our First Date 💕',
-            image: './images/photo 1.jpg'
-        },
-        {
-            text: 'Birthday Moment 🎂',
-            image: './images/photo 2.jpg'
-        },
-        {
-            text: 'Adventure Time 🌟',
             image: './images/photo 3.jpg'
         },
         {
-            text: 'Cozy Together ❤️',
+            text: 'Birthday Moment 🎂',
+            image: './images/photo 8.jpg'
+        },
+        {
+            text: 'Adventure Time 🌟',
             image: './images/photo 4.jpg'
         },
         {
-            text: 'Sweet Memories 🥰',
-            image: './images/photo 5.jpg'
-        },
-        {
-            text: 'Laugh Together 😂',
-            image: './images/photo 6.jpg'
-        },
-        {
-            text: 'Perfect Day ☀️',
+            text: 'Cozy Together ❤️',
             image: './images/photo 7.jpg'
         },
         {
+            text: 'Sweet Memories 🥰',
+            image: './images/photo 6.jpg'
+        },
+        {
+            text: 'Laugh Together 😂',
+            image: './images/photo 2.jpg'
+        },
+        {
+            text: 'Perfect Day ☀️',
+            image: './images/photo 5.jpg'
+        },
+        {
             text: 'Love Forever 💖',
-            image: './images/photo 8.jpg'
+            image: './images/photo 1.jpg'
         }
     ];
     
