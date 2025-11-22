@@ -339,7 +339,7 @@ function startPhotoShow() {
         },
         {
             text: 'Sweet Memories 🥰',
-            image: './images/photo 6.jpg'
+            image: './images/photo 6 new.jpg'
         },
         {
             text: 'Laugh Together 😂',
@@ -347,7 +347,7 @@ function startPhotoShow() {
         },
         {
             text: 'Perfect Day ☀️',
-            image: './images/photo 5.jpg'
+            image: './images/photo 5 new.jpg'
         },
         {
             text: 'Love Forever 💖',
